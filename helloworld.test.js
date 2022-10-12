@@ -17,5 +17,5 @@ test("Hello World to be present in index.html", () => {
 
   const target = dom.window.document.getElementById("target").textContent;
 
-  expect(target).toBe("Hello World!");
+  expect(target).toBe("Hello World");
 });
